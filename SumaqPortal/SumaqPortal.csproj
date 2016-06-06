@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\sumaqPortalApp.js" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -67,6 +68,7 @@
     <Content Include="fonts\roboto\roboto-bold.woff" />
     <Content Include="fonts\roboto\roboto-light.woff" />
     <Content Include="fonts\roboto\roboto.woff" />
+    <Content Include="Index.html" />
     <Content Include="libs\angular\.DS_Store" />
     <Content Include="libs\angular\angular-material\angular-material.zip" />
     <Content Include="libs\angular\angular-ui-grid\ui-grid.eot" />
@@ -420,9 +422,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
